@@ -1,0 +1,198 @@
+* {
+    background-color: #09090e;
+}
+
+
+/* Estilos CSS para o cabeçalho, conteúdo e rodapé */
+header {
+    background-color: #09090e;
+    color: #fff;
+
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+/* Remover a decoração de texto dos links */
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+.conteudo {
+
+    margin-top: 22px;
+    /* Define o preenchimento superior */
+    text-align: center;
+
+}
+
+
+h2,
+p,
+h3 {
+
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.conteiner {
+
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #09090e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ffffff;
+    /* 2px de largura e cor vermelha (#FF0000) */
+
+}
+
+nav {
+    display: flex;
+    /* Define o elemento como um contêiner flexível */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    justify-content: space-between;
+    /* Distribui o espaço entre os itens */
+    padding-left: 20px;
+    /* Define o preenchimento à esquerda */
+    padding-right: 30px;
+    /* Define o preenchimento à direita */
+    padding-top: 2px;
+    /* Define o preenchimento superior */
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #ffffff;
+    /* 2px de largura e cor vermelha (#FF0000) */
+
+}
+
+
+img {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+    width: 400px;
+    height: 250px;
+    border-radius: 15%;
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave para o efeito de zoom */
+
+
+
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    /* Define um aumento de escala de 20% (zoom) quando o mouse está sobre o contêiner */
+
+}
+
+.liga {
+    width: 400px;
+    height: 301px;
+    border-radius: 15%;
+
+}
+
+span {
+
+    color: #FFA500;
+
+}
+
+.grande {
+
+    color: #fff;
+    font-size: 27px;
+}
+
+.foto {
+    image-rendering: optimizeQuality;
+    width: 300px;
+    height: 451px;
+    border-radius: 38%;
+    image-rendering: optimizeSpeed;
+
+
+}
+
+
+
+/* Estilos gerais do formulário */
+form {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #FFA500;
+    background-color: #09090e;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Estilos para os rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f4f4f4;
+}
+
+/* Estilos para os campos de entrada de texto e textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFA500;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+input[type="submit"] {
+    background-color: #FFA500;
+    color: #09090e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+    width: 210px;
+    height: 70px;
+    background-size: cover;
+}
+
+input[type="submit"]:hover {
+    background-image: url('./img/OGC.gif');
+
+}
